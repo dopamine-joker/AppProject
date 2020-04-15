@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Junior</string>
+    <string name="icons">&#xe601;&#xe60a;&#xe641;&#xe644;&#xe63c;&#xe61a;&#xe636;&#xe69f;</string>
+    <string name="menu_first">话匣子</string>
+    <string name="menu_second">讨论吧</string>
+    <string name="menu_third">资讯</string>
+    <string name="menu_forth">我的</string>
+    <string name="search">搜索</string>
+    <string name="please_input">请输入</string>
+    <string name="forget_psw"><u>忘记密码</u></string>
+</resources>

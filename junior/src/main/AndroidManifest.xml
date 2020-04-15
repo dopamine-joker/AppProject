@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.junior">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppCompatTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".First.FirstTest"></activity>
+        <activity android:name=".Login.TEST" />
+        <activity android:name=".discussion.Discuss" />
+        <activity android:name=".Me.Account_Security_change" />
+        <activity android:name=".Me.Account_Security" />
+        <activity android:name=".Me.User_Info_Activity" />
+        <activity android:name=".Me.Info_Change_Activity" />
+        <activity android:name=".Me.SettingActivity" />
+        <activity android:name=".Login.RegistActivity" />
+        <activity android:name=".Login.LoginActivity" />
+        <activity android:name=".Login.ForgetPsdActivity" />
+        <activity android:name=".activity.LaunchSimpleActivity" />
+        <activity android:name=".activity.TabHostActivity" />
+        <activity android:name=".First.TabFirstActivity" />
+        <activity android:name=".activity.TabSecondActivity" />
+        <activity android:name=".activity.TabThirdActivity" />
+        <activity android:name=".activity.TabForthActivity" />
+        <activity
+            android:name=".Login.MainFrameActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
